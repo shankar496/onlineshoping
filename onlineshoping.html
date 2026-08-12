@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Online Shop</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart 🛒</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to My Online Store</h2>
+    <p>Find the best products at great prices.</p>
+    <a href="products.html" class="button">Shop Now</a>
+</section>
+
+<section>
+    <h2>Featured Products</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Product">
+            <h3>Smart Watch</h3>
+            <p>₹2,999</p>
+            <button onclick="addToCart('Smart Watch', 2999)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Product">
+            <h3>Headphones</h3>
+            <p>₹1,499</p>
+            <button onclick="addToCart('Headphones', 1499)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Product">
+            <h3>Shoes</h3>
+            <p>₹2,499</p>
+            <button onclick="addToCart('Shoes', 2499)">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
